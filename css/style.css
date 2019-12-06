@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+@font-face {
+	font-family: RobotoCondensed-Regular;
+	src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+
+
+@font-face {
+	font-family: RobotoCondensed-Bold;
+	src: url(../fonts/RobotoCondensed-Bold.ttf);
+}
+
+
+@font-face {
+	font-family: RobotoCondensed-Light;
+	src: url(../fonts/RobotoCondensed-Light.ttf);
+}

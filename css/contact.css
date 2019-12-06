@@ -1,0 +1,52 @@
+section.contact {
+    position: relative;
+    height: 100vh;
+}
+
+
+.profile_image {
+    display: inline-block;
+    width: 50%;
+    min-width: 430px;
+    height: 75%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('/site_content/images/img/profile.JPG');
+    background-size: cover;
+}
+
+
+.intro_text {
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    top: 5%;
+    right: 5%;
+}
+
+
+.intro_text_title {
+    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+
+.intro_text_subtitle {
+    font-family: RobotoCondensed-Regular, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+
+.contact_button {
+    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 55px;
+    padding-right: 55px;
+    text-decoration: none;
+}
