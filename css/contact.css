@@ -31,7 +31,25 @@
 
 .about_me_description {
     font-family: RobotoCondensed-Regular, Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 24px;
+    margin-bottom: 140px;
+}
+
+
+.contact_container {
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+
+.contact_button {
+    font-family: RobotoCondensed-Regular, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 23px 58px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
 }
 
 
@@ -47,13 +65,19 @@
 
 
     .about_me_header { 
-        font-size: 35px;
+        font-size: 34px;
         margin-bottom: 24px;
     }
 
 
     .about_me_description { 
-        font-size: 19px;
+        font-size: 18px;
+        margin-bottom: 70px;
+    }
+
+
+    .contact_button {
+        font-size: 18px;
     }
 }
 
@@ -61,12 +85,14 @@
 @media screen and (max-width: 540px) {
     .profile_image_container {
         width: 100%;
-        height: 65%;
+        height: 55%;
     }
 
 
     .about_me_container {
         width: 90%;
+        display: block;
+        margin: auto;
     }
 
 
@@ -74,12 +100,25 @@
         font-size: 33px;
         text-align: center;
         width: 100%;
+        margin-top: 10px;
+        margin-bottom: 15px;
     }
 
 
     .about_me_description { 
         font-size: 17px;
         text-align: center;
+        margin-bottom: 25px;
+    }
+
+
+    .contact_container {
+        text-align: center;
+    }
+
+    
+    .contact_button {
+        font-size: 16px;
     }
 }
 
