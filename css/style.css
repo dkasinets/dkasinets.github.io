@@ -9,6 +9,17 @@ body {
 }
 
 
+:root {
+	--green-color: #00d280;  
+}
+
+
+.divider_section {
+	height: 50px;
+	width: 100%;
+}
+
+
 @font-face {
 	font-family: RobotoCondensed-Regular;
 	src: url(../fonts/RobotoCondensed-Regular.ttf);
