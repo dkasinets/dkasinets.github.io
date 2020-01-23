@@ -31,8 +31,40 @@
 }
 
 
+.video_overlay {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 400px;
+    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 80px;
+    z-index: 100;
+}
+
+
+.video_overlay_title {
+    color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: .125rem;
+    -webkit-text-stroke-color: white;
+}
+
+
+.video_overlay_city {
+    color: white;
+}
+
+
 @media screen and (max-width: 540px) { 
     .background_video { 
         width: 100%;
+    }
+
+
+    .video_overlay {
+        top: 35%;
+        width: 250px;
+        font-size: 50px;
     }
 }
