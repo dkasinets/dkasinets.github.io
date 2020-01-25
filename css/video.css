@@ -33,17 +33,27 @@
 
 .video_overlay {
     position: absolute;
-    top: 30%;
-    left: 10%;
-    width: 400px;
-    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
-    text-align: left;
-    font-size: 80px;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
     z-index: 100;
 }
 
 
-.video_overlay_title {
+.video_multiline {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 400px;
+    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+
+.title_line {
     color: white;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: .125rem;
@@ -51,7 +61,7 @@
 }
 
 
-.video_overlay_city {
+.city_line {
     color: white;
 }
 
@@ -63,8 +73,20 @@
 
 
     .video_overlay {
-        top: 35%;
-        width: 250px;
-        font-size: 50px;
+        width: 100%;
+        left: 0;
+    }
+
+
+    .video_multiline { 
+        width: 270px;
+        font-size: 30px;
+        text-align: center;
+        margin: auto;
+    }
+
+
+    .title_line { 
+        -webkit-text-stroke-width: 0.06rem;
     }
 }
