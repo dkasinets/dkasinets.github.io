@@ -37,6 +37,17 @@
 }
 
 
+.noise {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-color: white;
+}
+
+
 @media screen and (max-width: 768px) { 
     .projects_header { 
         font-size: 34px;
