@@ -21,6 +21,12 @@ body {
 }
 
 
+.large_divider_section {
+	height: 150px;
+	width: 100%;
+}
+
+
 @font-face {
 	font-family: RobotoCondensed-Regular;
 	src: url(../fonts/RobotoCondensed-Regular.ttf);
