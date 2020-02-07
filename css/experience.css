@@ -1,0 +1,24 @@
+.experience_section {
+
+}
+
+
+.experience_header {
+    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    margin-left: 5%;
+}
+
+
+@media screen and (max-width: 768px) { 
+    .experience_header { 
+        font-size: 34px;
+    }
+}
+
+
+@media screen and (max-width: 540px) {
+    .experience_header { 
+        font-size: 33px;
+    }
+}
