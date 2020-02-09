@@ -21,7 +21,7 @@
 .projects_header {
     font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
     font-size: 45px;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 
@@ -128,6 +128,7 @@
 
     .projects_header { 
         font-size: 33px;
+        margin-left: 5%;
     }
 
 

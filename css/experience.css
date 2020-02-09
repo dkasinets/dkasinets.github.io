@@ -1,16 +1,110 @@
 .experience_section {
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
+
+.cv_container {
+    width: 75%;
+    max-width: 900px;
+}
+
+
+.cv_item {
+    margin-bottom: 7.5%;
+    width: 90%;
+}
+
+
+.cv_heading {
+    display: inline-block;
+    width: 55%;
+}
+
+
+.cv_position {
+    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+.cv_position span {
+    font-family: RobotoCondensed-Regular, Arial, Helvetica, sans-serif;
+}
+
+
+.cv_company {
+    font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+.cv_heading_details {
+    display: inline-block;
+    width: 44%;
+    text-align: right;
+    vertical-align: top;
+}
+
+
+.cv_date {
+    font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+.cv_location {
+    font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: var(--green-color);
+}
+
+
+.cv_description {
+    margin-top: 2.5%;
+}
+
+
+.cv_description_text {
+    font-family: RobotoCondensed-Regular, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+.education_container {
+    width: 25%;
 }
 
 
 .experience_header {
     font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
     font-size: 45px;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 
 @media screen and (max-width: 768px) { 
+    .cv_container {
+        width: 100%;
+    }
+
+
+    .cv_heading {
+        width: 100%;
+    }
+
+
+    .cv_heading_details {
+        width: 100%;
+        text-align: left;
+    }
+
+
+    .education_container {
+        width: 100%;
+    }
+
+
     .experience_header { 
         font-size: 34px;
     }
@@ -18,7 +112,19 @@
 
 
 @media screen and (max-width: 540px) {
+    .experience_section {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+
+    .cv_item {
+        width: 100%;
+    }
+
+
     .experience_header { 
         font-size: 33px;
+        margin-left: 5%;
     }
 }
