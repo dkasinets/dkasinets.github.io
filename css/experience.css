@@ -129,12 +129,14 @@
 
 
     .cv_item {
+        margin-bottom: 12%;
         width: 100%;
     }
 
 
     .cv_heading {
         width: 100%;
+        margin-bottom: 4%;
     }
 
 
