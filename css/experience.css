@@ -5,13 +5,14 @@
 
 
 .cv_container {
+    display: inline-block;
     width: 75%;
     max-width: 900px;
 }
 
 
 .cv_item {
-    margin-bottom: 7.5%;
+    margin-bottom: 10%;
     width: 90%;
 }
 
@@ -24,7 +25,7 @@
 
 .cv_position {
     font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 
@@ -35,7 +36,7 @@
 
 .cv_company {
     font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 
@@ -61,18 +62,56 @@
 
 
 .cv_description {
-    margin-top: 2.5%;
+    margin-top: 4%;
 }
 
 
 .cv_description_text {
-    font-family: RobotoCondensed-Regular, Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
+    font-size: 17px;
 }
 
 
 .education_container {
-    width: 25%;
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+    margin-top: 40%;
+}
+
+
+.graduation_icon {
+    max-width: 300px;
+    margin: auto;
+}
+
+
+.graduation_icon_svg {
+    width: 100%;
+}
+
+
+.education_description {
+    text-align: center;
+    margin-top: 4%;
+}
+
+
+.education_major {
+    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+
+.education_college {
+    font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+
+.education_year {
+    font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
+    font-size: 17px;
 }
 
 
@@ -85,6 +124,11 @@
 
 @media screen and (max-width: 768px) { 
     .cv_container {
+        width: 100%;
+    }
+
+
+    .cv_item {
         width: 100%;
     }
 
@@ -102,6 +146,7 @@
 
     .education_container {
         width: 100%;
+        margin-top: 20%;
     }
 
 
@@ -115,11 +160,6 @@
     .experience_section {
         margin-left: 5%;
         margin-right: 5%;
-    }
-
-
-    .cv_item {
-        width: 100%;
     }
 
 
