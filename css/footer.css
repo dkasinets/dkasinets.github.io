@@ -1,0 +1,65 @@
+footer {
+    background-color: black;
+    color: white;
+    height: 50%;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.footer_container {
+    display: inline-block;
+}
+
+
+.footer_section {
+    padding: 18%;
+    background-color: var(--green-color);
+    box-sizing: border-box;
+}
+
+
+.navigation_experience {
+    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+}
+
+
+.navigation_projects {
+    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+}
+
+
+.footer_contact_header {
+    font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+.linkedin_link {
+    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+
+.email_link {
+    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+
+.footer_created_by_container {
+    display: inline-block;
+}
+
+
+.footer_created_by {
+    font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
