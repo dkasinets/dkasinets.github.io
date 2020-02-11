@@ -1,4 +1,5 @@
 .experience_section {
+    position: relative;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -73,10 +74,11 @@
 
 
 .education_container {
+    position: absolute;
+    top: 30%;
     display: inline-block;
     width: 24%;
     vertical-align: top;
-    margin-top: 40%;
 }
 
 
@@ -123,6 +125,11 @@
 
 
 @media screen and (max-width: 768px) { 
+    .experience_section {
+        position: static;
+    }
+
+
     .cv_container {
         width: 100%;
     }
@@ -147,8 +154,13 @@
 
 
     .education_container {
+        position: static;
         width: 100%;
-        margin-top: 20%;
+    }
+
+
+    .education_content {
+        margin-top: 18%;
     }
 
 
