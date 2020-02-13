@@ -1,29 +1,54 @@
 .contact_section {
-    height: 650px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.profile_image_section {
+    display: inline-block;
+    width: 45%;
 }
 
 
 .profile_image_container {
-    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+
+    /* display: inline-block;
     background-image: url("../site_content/images/img/profile_square_more_color.jpg");
     background-position: center;
     background-size: cover;
     width: 45%;
-    height: 90%;
+    height: 90%; */
+}
+
+
+.profile_image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
 }
 
 
 .about_me_container {
     display: inline-block;
     width: 45%;
-    margin: 35px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     vertical-align: top;
 }
 
 
 .about_me_header {
     font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
-    font-size: 45px;
+    font-size: 34px;
     width: 200px;
     margin-bottom: 35px;
 }
@@ -31,8 +56,8 @@
 
 .about_me_description {
     font-family: RobotoCondensed-Regular, Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    margin-bottom: 140px;
+    font-size: 18px;
+    margin-bottom: 25%;
 }
 
 
@@ -55,25 +80,40 @@
 
 
 @media screen and (max-width: 768px) {
+    .profile_image_section { 
+        width: 100%;
+    }
+
+
     .profile_image_container { 
-        height: 65%;
+        /* height: 65%; */
     }
 
 
     .about_me_container {
-        margin: 24px;
+        width: 90%;
+        display: block;
+        margin: auto;
     }
 
 
     .about_me_header { 
+        text-align: center;
+        width: 100%;
         font-size: 34px;
         margin-bottom: 24px;
     }
 
 
     .about_me_description { 
+        text-align: center;
         font-size: 18px;
         margin-bottom: 70px;
+    }
+
+
+    .contact_container {
+        text-align: center;
     }
 
 
@@ -85,22 +125,13 @@
 
 @media screen and (max-width: 540px) {
     .profile_image_container {
-        width: 100%;
-        height: 55%;
-    }
-
-
-    .about_me_container {
-        width: 90%;
-        display: block;
-        margin: auto;
+        /* width: 100%;
+        height: 55%; */
     }
 
 
     .about_me_header {
         font-size: 33px;
-        text-align: center;
-        width: 100%;
         margin-top: 10px;
         margin-bottom: 15px;
     }
@@ -112,14 +143,8 @@
         margin-bottom: 25px;
     }
 
-
-    .contact_container {
-        text-align: center;
-    }
-
     
     .contact_button {
         font-size: 16px;
     }
 }
-

@@ -9,6 +9,7 @@ header {
     position: absolute;
     left: 0px;
     top: 20px;
+    padding-left: 5%;
 }
 
 
@@ -23,6 +24,7 @@ header {
     position: absolute;
     right: 0px;
     top: 25px;
+    padding-right: 5%;
     cursor: pointer;
 }
 
