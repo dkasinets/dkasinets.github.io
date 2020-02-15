@@ -112,6 +112,12 @@
 
 
 @media screen and (max-width: 540px) {
+    .contact_section {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
     .about_me_header {
         font-size: 33px;
         margin-bottom: 15px;
