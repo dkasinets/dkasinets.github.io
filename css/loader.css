@@ -1,0 +1,21 @@
+.loader_wrapper {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.loader_first {
+    height: 100%;
+    width: 100%;
+    background-color: var(--green-color);
+}
+
+
+.loader_second {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
