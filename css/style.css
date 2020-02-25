@@ -12,7 +12,8 @@ body {
 
 :root {
 	--green-color: #00d280;
-	--orange-color: rgb(255, 204, 51);  
+	--orange-color: rgb(255, 204, 51);
+	--gray-color: #888888; 
 }
 
 
