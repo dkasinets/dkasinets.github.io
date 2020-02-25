@@ -1,0 +1,73 @@
+.next_project_container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.next_project {
+    text-align: right;
+}
+
+
+.next_link {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+
+.angle_right_icon_svg {
+    display: inline-block;
+    vertical-align: middle;
+    height: 25px;
+}
+
+
+.project_text {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+.text_container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.text_content_header {
+    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
+    font-size: 34px;
+}
+
+
+.text_content_subheader {
+    font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 4%;
+}
+
+
+.text_content_description {
+    font-family: RobotoCondensed-Regular, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+.project_image {
+    width: 100%;
+}
+
+
+.project_image_item {
+    width: 100%;
+}
+
+
+.project_image_description {
+    width: 100%;
+    font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
