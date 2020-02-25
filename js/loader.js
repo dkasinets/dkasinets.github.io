@@ -4,9 +4,13 @@ setLoader();
 function setLoader() {
     $( window ).on("load", function() {
         // hide loaders
-        $(".loader_first").slideUp();
-        setTimeout(() => {$(".loader_second").slideUp(onLoaderAnimationFinished);}, 500);
+        $(".loader_first").slideUp(onFirstAnimationComplete);
     });
+}
+
+
+function onFirstAnimationComplete() {
+    $(".loader_second").slideUp(onLoaderAnimationFinished);
 }
 
 
