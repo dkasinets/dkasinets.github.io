@@ -1,6 +1,4 @@
-$( document ).ready(function() {
-    setLoader();
-});
+setLoader();
 
 
 function setLoader() {
