@@ -26,22 +26,14 @@ footer {
 }
 
 
-.navigation_experience {
-    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    display: inline-block;
-}
-
-
-.navigation_projects {
-    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    display: inline-block;
-    margin-left: 10%;
-}
-
-
 .footer_contact_header {
+    font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 2%;
+}
+
+
+.footer_other_header {
     font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin-top: 10%;
@@ -49,24 +41,24 @@ footer {
 }
 
 
-.linkedin_link {
+.media_link {
     font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
     font-size: 18px;
     display: inline-block;
+    margin-right: 10%;
 }
 
 
-.linkedin_icon_svg {
+.media_icon_svg {
+    vertical-align: middle;
     height: 15px;
     margin-right: 5px;
 }
 
 
-.email_link {
-    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
-    font-size: 18px;
+.media_name {
     display: inline-block;
-    margin-left: 10%;
+    vertical-align: middle;
 }
 
 
@@ -88,16 +80,6 @@ footer {
     .footer_container {
         width: 250px;
     }
-
-
-    .navigation_projects { 
-        margin-left: 0;
-    }
-
-
-    .email_link { 
-        margin-left: 0;
-    }
 }
 
 
@@ -118,13 +100,8 @@ footer {
     }
 
 
-    .navigation_projects { 
-        margin-left: 7.5%;
-    }
-
-
-    .email_link { 
-        margin-left: 7.5%;
+    .media_link { 
+        margin-right: 7.5%;
     }
 
 

@@ -1,0 +1,93 @@
+.contact_page_text {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+
+.text_container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.text_content {
+    width: 100%;
+    text-align: center;
+}
+
+
+.text_content_header {
+    display: inline-block;
+    width: 105px;
+    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    margin-bottom: 4%;
+    text-align: left;
+}
+
+
+.text_content_description {
+    font-family: RobotoCondensed-Regular, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+.contact_page_links_container {
+    width: 100%;
+    text-align: center;
+}
+
+
+.contact_page_inner {
+    display: inline-block;
+    text-align: left;
+    width: 210px;
+}
+
+
+.contact_page_link_header {
+    font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+
+.contact_page_link {
+    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 4%;
+    display: block;
+}
+
+
+.image_icon_svg {
+    vertical-align: middle;
+    height: 20px;
+}
+
+
+.contact_icon_svg {
+    vertical-align: middle;
+    height: 15px;
+    margin-right: 5px;
+}
+
+
+.contact_link_name {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+@media screen and (max-width: 768px) {
+    .text_content_header {
+        font-size: 33px;
+    }
+
+
+    .text_content_description {
+        font-size: 18px;
+    }
+}
