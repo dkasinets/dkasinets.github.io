@@ -25,7 +25,7 @@
 
 .cv_position {
     font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 
@@ -37,7 +37,7 @@
 
 .cv_company {
     font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 
@@ -75,7 +75,6 @@
 
 .education_container {
     position: absolute;
-    top: 30%;
     display: inline-block;
     width: 24%;
     vertical-align: top;
@@ -113,7 +112,7 @@
 
 .education_year {
     font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    font-size: 19px;
 }
 
 

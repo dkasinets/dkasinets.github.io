@@ -21,7 +21,6 @@ footer {
 
 .footer_section {
     padding: 10%;
-    background-color: var(--green-color);
     box-sizing: border-box;
 }
 
@@ -51,7 +50,7 @@ footer {
 
 .media_icon_svg {
     vertical-align: middle;
-    height: 15px;
+    height: 30px;
     margin-right: 5px;
 }
 
