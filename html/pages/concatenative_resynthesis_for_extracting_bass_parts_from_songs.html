@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dzmitry Kasinets | Software Engineer</title>
+        <link rel="icon" href="../../site_content/images/icons/site_icon.png">
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="../../css/loader.css">
+        <link rel="stylesheet" href="../../css/page.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <section class="header"></section>
+        <section class="divider_section"></section>
+        <section class="next_project_container">
+            <a href="./fridas_brooklyn_selfie.html">
+                <div class="next_project">
+                    <div class="next_link">Next project</div>
+                    <img class="angle_right_icon_svg" src="../../site_content/images/icons/angle-right-solid.svg">
+                </div>
+            </a>
+        </section>
+        <section class="project_text">
+            <div class="text_container">
+                <div class="text_content">
+                    <div class="text_content_header">Concatenative Resynthesis for Extracting Bass Parts from Songs</div>
+                    <div class="text_content_subheader">Machine Learning / Music Information Retrieval (MIR)</div>
+                    <p class="text_content_description">
+                        This project is based on an existing system that can remove noise from speech recordings. 
+                        It uses a collection of clean speech signals and a deep neural network to resynthesize 
+                        clean speech from noisy observations. This approach is called Concatenative Resynthesis 
+                        and can produce extremely high-quality enhancements. The goal of the current study is 
+                        to create a system to take a song as an input and return the song’s bass part as output. 
+                        To do so, we use Concatenative Resynthesis, which requires creating new features and 
+                        finding a configuration that can successfully resynthesize the bass part.
+                    </p>
+                    <p class="text_content_description">
+                        Our experiments are performed on the MedleyDB dataset, a corpus of over 100 multitrack recordings. 
+                        This means that each song is provided as the final product, along with all of the recordings of 
+                        individual instruments that were combined to make it. This lets us choose a test song with good bass 
+                        and train the network on more songs with bass to resynthesize the test song’s bass part. 
+                        To do this, we tried Gammatone Filterbank feature, and later created a custom one.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="project_image">
+            <iframe src="../../site_content/images/portfolio/ConcatResyn.pdf#toolbar=0" width="100%" height="500px"></iframe>
+            <div class="project_image_description">Concatenative Resynthesis for Extracting Bass Parts from Songs (2018)</div>
+        </section>
+        <section class="project_text">
+            <div class="text_container">
+                <div class="text_content">
+                    <p class="text_content_description">
+                        We evaluate the results by comparing them to the actual bass recordings. 
+                        We plan to evaluate the system by creating a survey that compares it to other approaches. 
+                        Preliminary listening tests suggest that it is able to resynthesize bass with high audio quality, 
+                        rhythm and pitch accuracy if it is trained on parts of itself in addition to different songs. 
+                        It can resynthesize bass with good audio quality, rhythm and pitch accuracy if trained only on different songs.
+                    </p>
+                    <p class="text_content_description">
+                        This project is valuable because it has the potential to create much higher quality separations than current approaches, 
+                        which could enable new musical applications of this promising source separation technique that has so far been applied only to speech.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="large_divider_section"></section>
+        <section class="footer"></section>
+        <div class="loader_wrapper">
+            <div class="loader_first"></div>
+            <div class="loader_second"></div>
+        </div>
+        <script type="text/javascript" src="../../libraries/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="../../js/loader.js"></script>
+        <script type="text/javascript" src="/js/header.js"></script>
+        <script type="text/javascript" src="/js/footer.js"></script>
+    </body>
+</html>

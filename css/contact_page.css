@@ -59,7 +59,6 @@
     font-size: 18px;
     margin-bottom: 10%;
     display: block;
-    color: black;
 }
 
 
@@ -72,13 +71,23 @@
 .contact_icon_svg {
     vertical-align: middle;
     height: 20px;
+    margin-right: 5px;
+}
+
+
+.contact_page_link_anchor {
+    color: black;
+}
+
+
+.contact_page_link_anchor:hover {
+    border-bottom: 1px solid black;
 }
 
 
 .contact_link_name {
     display: inline-block;
     vertical-align: middle;
-    margin-left: 5px;
 }
 
 

@@ -34,15 +34,20 @@
 
 .projects_content {
     overflow: hidden;
-    padding: 3%;
+    padding: 2%;
 }
 
 
 .portfolio_item {
-    width: 25%;
+    width: 33.33333%;
     float: left;
     padding: 2%;
     box-sizing: border-box;
+}
+
+
+.portfolio_item_show {
+    display: none;
 }
 
 
@@ -95,7 +100,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.1;
+    opacity: 0.15;
     background-color: white;
 }
 
@@ -114,6 +119,11 @@
 
     .portfolio_item {
         width: 50%;
+    }
+
+    
+    .portfolio_item_show {
+        display: initial;
     }
 }
 
