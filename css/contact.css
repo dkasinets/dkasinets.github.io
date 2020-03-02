@@ -39,16 +39,16 @@
 
 .about_me_header {
     font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
-    font-size: 34px;
+    font-size: 4vw;
     width: 200px;
-    margin-bottom: 35px;
+    margin-bottom: 10%;
 }
 
 
 .about_me_description {
     font-family: RobotoCondensed-Regular, Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    margin-bottom: 25%;
+    font-size: 2.3vw;
+    margin-bottom: 12.5%;
 }
 
 
@@ -85,6 +85,7 @@
 
     .about_me_header { 
         text-align: center;
+        font-size: 34px;
         width: 100%;
         margin-top: 10px;
         margin-bottom: 24px;
