@@ -14,6 +14,7 @@
 .cv_item {
     margin-bottom: 10%;
     width: 90%;
+    line-height: 1.75;
 }
 
 
@@ -95,6 +96,7 @@
 .education_description {
     text-align: center;
     margin-top: 4%;
+    line-height: 1.75;
 }
 
 
