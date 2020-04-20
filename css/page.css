@@ -17,7 +17,7 @@
 .next_link {
     display: inline-block;
     vertical-align: middle;
-    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
+    font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
     font-size: 22px;
     letter-spacing: 2px;
     color: var(--gray-color);
