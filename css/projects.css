@@ -86,7 +86,7 @@
 .overlay_text {
     font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 2vw;
 }
 
 
@@ -157,6 +157,11 @@
     
     .portfolio_item_show {
         display: initial;
+    }
+
+
+    .overlay_text {
+        font-size: 20px;
     }
 }
 
