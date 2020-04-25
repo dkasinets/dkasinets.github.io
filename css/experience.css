@@ -26,19 +26,19 @@
 
 .cv_position {
     font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
 .cv_position span {
     font-family: RobotoCondensed-Regular, Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
 .cv_company {
     font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
@@ -52,13 +52,13 @@
 
 .cv_date {
     font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
 .cv_location {
     font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: var(--green-color);
 }
 
@@ -112,16 +112,47 @@
 }
 
 
-.education_year {
-    font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
-    font-size: 16px;
-}
-
-
 .experience_header {
     font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
     font-size: 45px;
     margin-left: 10%;
+}
+
+
+@media screen and (max-width: 850px) { 
+    .cv_position {
+        font-size: 18px;
+    }
+    
+    
+    .cv_position span {
+        font-size: 18px;
+    }
+
+
+    .cv_company {
+        font-size: 18px;
+    }
+
+
+    .cv_date {
+        font-size: 18px;
+    }    
+
+
+    .cv_location {
+        font-size: 18px;
+    }
+
+
+    .education_major {
+        font-size: 14px;
+    }
+    
+    
+    .education_college {
+        font-size: 14px;
+    }
 }
 
 
@@ -174,11 +205,6 @@
         font-size: 19px;
     }
     
-
-    .education_year {
-        font-size: 19px;
-    }
-
 
     .experience_header { 
         font-size: 34px;
