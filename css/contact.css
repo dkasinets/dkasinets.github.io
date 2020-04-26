@@ -53,6 +53,12 @@
 }
 
 
+.about_me_description img {
+    height: 3.5vw;
+    vertical-align: sub;
+}
+
+
 .contact_container {
     padding-top: 23px;
     padding-bottom: 23px;
@@ -69,6 +75,11 @@
     text-decoration: none;
     user-select: none;
     text-align: center;
+}
+
+
+.contact_button:hover {
+    opacity: 0.8;
 }
 
 
@@ -101,6 +112,11 @@
     }
 
 
+    .about_me_description img {
+        height: 33px;
+    }
+
+
     .contact_container {
         text-align: center;
     }
@@ -128,6 +144,11 @@
     .about_me_description { 
         font-size: 17px;
         margin-bottom: 6%;
+    }
+
+
+    .about_me_description img {
+        height: 30px;
     }
 
     

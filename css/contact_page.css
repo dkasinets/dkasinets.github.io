@@ -20,7 +20,7 @@
     display: inline-block;
     width: 105px;
     font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
-    font-size: 34px;
+    font-size: 40px;
     margin-bottom: 4%;
     text-align: left;
 }
@@ -28,9 +28,11 @@
 
 .text_content_description {
     font-family: RobotoCondensed-Regular, Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.75;
     text-align: left;
+    margin-left: 9rem;
+    margin-right: 9rem;
 }
 
 
@@ -68,7 +70,7 @@
 
 .image_icon_svg {
     vertical-align: middle;
-    height: 20px;
+    height: 40px;
 }
 
 
@@ -103,5 +105,11 @@
 
     .text_content_description {
         font-size: 18px;
+        margin: auto;
+    }
+
+    
+    .image_icon_svg {
+        height: 30px;
     }
 }

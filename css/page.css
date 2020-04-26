@@ -14,6 +14,21 @@
 }
 
 
+.next_project:hover span{
+    padding-left: 25px;
+}
+
+
+.next_project:hover .angle_right_icon_svg {
+    opacity: 1;
+}
+
+
+.next_project span {
+    transition: 0.5s;
+}
+
+
 .next_link {
     display: inline-block;
     vertical-align: middle;
@@ -29,6 +44,8 @@
     display: inline-block;
     vertical-align: middle;
     height: 20px;
+    opacity: 0;
+    transition: 0.5s;
 }
 
 
@@ -54,7 +71,7 @@
 
 .text_content_subheader {
     font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 10%;
     text-transform: uppercase;
 }
@@ -62,7 +79,7 @@
 
 .text_content_description {
     font-family: RobotoCondensed-Regular, Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.75;
 }
 
@@ -97,7 +114,7 @@
 
 
     .text_content_subheader {
-        font-size: 17px;
+        font-size: 18px;
     }
 
 
