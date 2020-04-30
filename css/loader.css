@@ -11,6 +11,7 @@
     height: 100%;
     width: 100%;
     background-color: var(--green-color);
+    position: relative;
 }
 
 
@@ -18,4 +19,37 @@
     height: 100%;
     width: 100%;
     background-color: black;
+}
+
+
+.spinner_wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.spinner {
+    border: 0.8rem solid rgba(0,0,0,0);
+    border-radius: 50%;
+    border-top: 0.8rem solid var(--orange-color);
+    width: 4rem;
+    height: 4rem;
+    -webkit-animation: spin 1s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+}
+
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }

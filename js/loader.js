@@ -3,6 +3,7 @@ setLoader();
 
 function setLoader() {
     $( window ).on("load", function() {
+        $(".spinner").fadeOut("fast");
         // hide loaders
         $(".loader_first").slideUp(onFirstAnimationComplete);
     });
