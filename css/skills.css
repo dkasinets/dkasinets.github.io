@@ -1,0 +1,72 @@
+.skills_header {
+    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    margin-left: 10%;
+}
+
+
+.skills_section {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.skill_type {
+    margin-bottom: 10%;
+    line-height: 1.75;
+}
+
+
+.skill_heading {
+    font-family: RobotoCondensed-Bold, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+.skill_details {
+    font-family: RobotoCondensed-Light, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+.skill_details span{
+    border-bottom: 1px solid black;
+}
+
+
+@media screen and (max-width: 850px) { 
+    .skill_heading {
+        font-size: 18px;
+    }
+
+
+    .skill_details {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 768px) { 
+    .skills_header { 
+        font-size: 34px;
+    }
+
+
+    .skill_type {
+        margin-bottom: 12%;
+    }
+}
+
+
+@media screen and (max-width: 540px) { 
+    .skills_header { 
+        font-size: 33px;
+        margin-left: 5%;
+    }
+
+
+    .skills_section {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
