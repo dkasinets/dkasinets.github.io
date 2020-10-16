@@ -4,6 +4,9 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 9999;
+    background-color: var(--green-color);
+    opacity: 0.96;
 }
 
 
@@ -11,6 +14,7 @@
     height: 100%;
     width: 100%;
     background-color: var(--green-color);
+    opacity: 0.96;
     position: relative;
 }
 
@@ -19,6 +23,7 @@
     height: 100%;
     width: 100%;
     background-color: black;
+    opacity: 0.96;
 }
 
 
@@ -32,12 +37,12 @@
 
 
 .spinner {
-	width: 2em;
-	height: .66em;
-	border: .05em black solid;
-	border-radius: .1em;
+	width: 4em;
+	height: 1.32em;
+	border: .1em black solid;
+	border-radius: .2em;
 	background: linear-gradient(-60deg, transparent 0%, transparent 50%, currentcolor 50%, currentcolor 75%, transparent 75%, transparent);
-	background-size: 1em 2em;
+	background-size: 2em 4em;
 	background-position: 0 0;
 	animation: load 0.8s infinite linear;
 }
