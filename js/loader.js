@@ -1,6 +1,5 @@
-$( ".loader_wrapper" ).ready(function() {
-    getLoader();
-});
+
+getLoader();
 
 
 $( window ).on("load", function() {
