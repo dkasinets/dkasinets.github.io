@@ -2,6 +2,14 @@
 getLoader();
 
 
+$(window).on('beforeunload', function(){
+    $(".spinner").fadeOut("fast");
+    $(".loader_wrapper").css("background-color", "transparent");
+    // hide loaders
+    $(".loader_first").slideUp(onFirstAnimationComplete);
+});
+
+
 $( window ).on("load", function() {
     $(".spinner").fadeOut("fast");
     $(".loader_wrapper").css("background-color", "transparent");
