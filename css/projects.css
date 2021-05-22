@@ -121,6 +121,7 @@
     height: 100%;
     width: 90%;
     /* background-color: black; */
+    border: 1px solid black; /* a small edge around noise */
     z-index: -1;
 }
 
